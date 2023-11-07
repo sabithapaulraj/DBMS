@@ -1,17 +1,20 @@
-# EX 2 Data Manipulation Language (DML) Commands and built in functions in SQL
+# EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands
+## DATE:
 ## AIM:
 To create a manager database and execute DML queries using SQL.
 
-# THEORY
+
 ## DML(Data Manipulation Language)
-*  The SQL commands that deal with the manipulation of data present in the database belong to DML or Data Manipulation Language and this includes most of the SQL statements.
-*  It is the component of the SQL statement that controls access to data and to the database. Basically, DCL statements are grouped with DML statements.
+<div align="justify">
+The SQL commands that deal with the manipulation of data present in the database belong to DML or Data Manipulation Language and this includes most of the SQL statements. It is the component of the SQL statement that controls access to data and to the database. Basically, DCL statements are grouped with DML statements.
+</div>
 
 ## List of DML commands: 
-1. INSERT: It is used to insert data into a table.
-2. UPDATE: It is used to update existing data within a table.
-3. DELETE: It is used to delete records from a database table.
-4. SELECT: The SELECT command shows the records of the specified table.
+<div align="justify">
+INSERT: It is used to insert data into a table.<br>
+UPDATE: It is used to update existing data within a table.<br>
+DELETE: It is used to delete records from a database table.<br>
+</div>
 
 ## Create the table as given below:
 ```sql
@@ -56,7 +59,6 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 ![270733298-b697b096-ba16-4329-ac6b-d015128fd061](https://github.com/22008539/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118707617/cbf1e6e9-9633-4cf9-ad85-341e7b03c613)
 
-
 ### Q5)	List the names of Clerks from emp table.
 
 
@@ -71,7 +73,6 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 ### Q6)	List the names of employee who are not Managers.
 
-
 ### QUERY:
 
 ![270738366-01b12f80-95f7-431c-95a7-4470c12c4a72](https://github.com/22008539/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118707617/a65b548c-2cd5-45c9-b21b-89cbdb1114c4)
@@ -81,9 +82,7 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 ![270738422-0cf2a6ad-398f-4d29-bebb-c31a84334347](https://github.com/22008539/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118707617/02933c79-0073-4274-9b90-2bc9f4814d8b)
 
-
 ### Q7)	List the names of employees not eligible for commission.
-
 
 ### QUERY:
 
@@ -93,9 +92,7 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 ![270739010-8f6da561-78ad-4573-9c8b-406de97e5e19](https://github.com/22008539/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118707617/f4a825b1-ac41-4d65-9b0c-e59a55e4ca33)
 
-
 ### Q8)	List employees whose name either start or end with ‘s’.
-
 
 ### QUERY:
 
@@ -108,7 +105,6 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 ### Q9) Sort emp table in ascending order by hire-date and list ename, job, deptno and hire-date.
 
-
 ### QUERY:
 
 ![270742384-ea09fd51-d67f-4b14-abc7-7093026e69dd](https://github.com/22008539/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118707617/89b37e50-40ad-42ab-9d4a-dbba66165238)
@@ -117,8 +113,8 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 ![270742433-b3a0080f-b755-412a-b631-2c8484061c1c](https://github.com/22008539/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118707617/9bd94ed7-a460-4084-8ede-87fdaf6191cf)
 
-### Q10) List the Details of Employees who have joined before 30 Sept 81.
 
+### Q10) List the Details of Employees who have joined before 30 Sept 81.
 
 ### QUERY:
 
@@ -131,7 +127,6 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 ### Q11)	List ename, deptno and sal after sorting emp table in ascending order by deptno and then descending order by sal.
 
-
 ### QUERY:
 
 ![270743688-b195dae7-d5fb-405b-b0fd-8f3cac28497c](https://github.com/22008539/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118707617/faf3c43b-22f9-467b-ac0d-ce28c829d279)
@@ -139,7 +134,6 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 ### OUTPUT:
 
 ![270743781-8366de8d-6502-4a70-a202-8540b84db42c](https://github.com/22008539/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118707617/4298c229-f964-4b6d-a0a2-a95cf3efb38c)
-
 
 
 ### Q12) List the names of employees not belonging to dept no 30,40 & 10
@@ -162,7 +156,6 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 ![270744469-c5628317-f034-4f88-951c-339f05cd7079](https://github.com/22008539/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118707617/d33535ee-03c1-4985-a55c-a101cc7ee17b)
 
-
 ### Q14) Find maximum, minimum and average salary in EMP table.
 
 ### QUERY:
@@ -172,7 +165,6 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 ### OUTPUT:
 
 ![270745021-fa7dd8b3-a982-48f3-b03e-bd7f9152564e](https://github.com/22008539/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118707617/4b00eb99-b144-4f53-becb-39f06680a9f3)
-
 
 ### Q15) List the jobs and number of employees in each job. The result should be in the descending order of the number of employees.
 
@@ -184,5 +176,6 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 ![270745586-123c7d66-c434-4809-8e89-85fefdf37f24](https://github.com/22008539/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/118707617/c0e4cac3-dd5f-40df-84f2-d3126c560d40)
 
-## RESULT :
-Thus the basic DML commands are executed.
+### RESULT:
+
+To create a manager database and execute DML queries using SQL is executed successfully.
