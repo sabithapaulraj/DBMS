@@ -175,4 +175,4 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 ### RESULT:
 
-To create a manager database and execute DML queries using SQL is executed successfully.
+Thus the basic DML commands are executed
