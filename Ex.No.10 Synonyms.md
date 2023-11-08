@@ -1,5 +1,5 @@
 # EXP NO 10: SYNONYMS AND ASSERTIONS IN SQL 
-### DATE: 
+### DATE : 18/10/2023 
 ## AIM:
 To create a student database and create a synonym and assertions.
 
