@@ -1,5 +1,5 @@
 # Ex. No: 6 PL/SQL program to perform addition and subtraction of two number 
-### DATE: 
+### DATE : 20/09/2023 
 ### AIM: To create PL/SQL program to perform addition and subtraction of two number.
 
 ### Steps:
