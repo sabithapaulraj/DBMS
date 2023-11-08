@@ -1,5 +1,5 @@
-# Ex. No: 10 DATA BASE CONNECTIVITY USING  MYSQL AND JAVA
-### DATE: 
+# Ex. No: 11 DATA BASE CONNECTIVITY USING  MYSQL AND JAVA
+### DATE : 25/10/2023 
 ### AIM: To create database connectivity and display the employee table 
 
 ### Steps:
