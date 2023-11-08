@@ -1,5 +1,5 @@
 # Ex. No: 9 PL/SQL program using Triggers 
-### DATE: 
+### DATE : 11/10/2023 
 ### AIM: To create PL/SQL program to display new and old salary of customer when before/ after updation takes place. 
 
 ### Steps:
