@@ -1,5 +1,5 @@
 # Ex. No: 8 PL/SQL program using Cursor 
-### DATE: 
+### DATE : 04/10/2023 
 ### AIM: To create PL/SQL program to display the customer table 
 
 ### Steps:
