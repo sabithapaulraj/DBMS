@@ -61,7 +61,8 @@ print ("Total number of rows in resultset:", count)
 
 ```
 ### Output:
-![image](https://github.com/sabithapaulraj/DBMS/assets/118343379/148951f3-d2b0-457e-92aa-09a7b1e170f5)
+![image](https://github.com/sabithapaulraj/DBMS/assets/118343379/7694493e-ba85-45ce-b1a2-e8072edbc25d)
+
 
 
 
